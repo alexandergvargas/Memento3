@@ -2,7 +2,7 @@ package com.mitocode.memento;
 
 public class Juego {
 
-	private String nombre;
+	private String nombre;//DECLARAMOS LOS DOS VALORES QUE VAMOS A UTILIZAR NOMBRE Y CHECKPONIT
 	private int checkpoint;
 
 	public int getCheckpoint() {

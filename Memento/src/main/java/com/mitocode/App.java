@@ -9,7 +9,7 @@ public class App {
 	public static void main(String[] args) {
 		String nombreJuego = "Crash Bandicoot";
 		
-		Juego juego = new Juego();
+		Juego juego = new Juego();///CREAMOS UNA INSTANCIA DE JUEGO 1 Y LUEGO LOS DEMAS
 		juego.setNombre(nombreJuego);
 		juego.setCheckpoint(1);
 
@@ -40,6 +40,7 @@ public class App {
 		caretaker.addMemento(originator.guardar()); // ESTADO POSICION "2" Y GUARDA EL ESTADO
 		originator.restaurar(caretaker.getMemento(1));// AQUI PONEMOS EL NUMERO QUE QUEREMOS RESTAURAR DACUERDO COMO LO DECLARAMOS ARRIBA
                 
+         
 		juego = originator.getEstado();
 		System.out.println(juego);
 	}
