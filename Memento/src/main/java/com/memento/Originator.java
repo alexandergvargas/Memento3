@@ -1,4 +1,4 @@
-package com.mitocode.memento;
+package com.memento;
 //ESTA CLASE GURADA EL OBJETO
 public class Originator {
 

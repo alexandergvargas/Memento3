@@ -1,13 +1,13 @@
-package com.mitocode;
+package com;
 
-import com.mitocode.memento.Caretaker;
-import com.mitocode.memento.Juego;
-import com.mitocode.memento.Originator;
+import com.memento.Caretaker;
+import com.memento.Juego;
+import com.memento.Originator;
 
 public class App {
 
 	public static void main(String[] args) {
-		String nombreJuego = "Crash Bandicoot";
+		String nombreJuego = "ValleGrande";
 		
 		Juego juego = new Juego();///CREAMOS UNA INSTANCIA DE JUEGO 1 Y LUEGO LOS DEMAS
 		juego.setNombre(nombreJuego);

@@ -1,4 +1,4 @@
-package com.mitocode.memento;
+package com.memento;
 
 public class Memento {
 

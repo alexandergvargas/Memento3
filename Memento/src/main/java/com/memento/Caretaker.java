@@ -1,4 +1,4 @@
-package com.mitocode.memento;
+package com.memento;
 
 import java.util.ArrayList;
 
