@@ -1,8 +1,8 @@
 package com.mitocode.memento;
-
+//ESTA CLASE GURADA EL OBJETO
 public class Originator {
 
-	private Juego estado;
+	private Juego estado; //TENEMOS UN ATRIBUTO JUEGO QUE LO ESTAMOS LLAMANDO ESTADO
 
 	public void setEstado(Juego estado) {
 		this.estado = estado;
@@ -12,11 +12,11 @@ public class Originator {
 		return estado;
 	}
 
-	public Memento guardar() {
-		return new Memento(estado);
+	public Memento guardar() {//AQUI CREA UNA NUEVA INSTANCIA MEMENTO CON EL ESTADO QUE DECLARAMOS ARRIBA ESTADO Y GUARDA EL ESTADO
+		return new Memento(estado);//RETORNA
 	}
 
-	public void restaurar(Memento m) {
+	public void restaurar(Memento m) {// AQUI LO RECUPERA
 		this.estado = m.getEstado();
 	}
 }
