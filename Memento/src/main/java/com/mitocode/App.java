@@ -39,7 +39,7 @@ public class App {
 		juego.setNombre(nombreJuego);
 		juego.setCheckpoint(5);
 		originator.setEstado(juego);
-		caretaker.addMemento(originator.guardar()); // ESTADO POSICION 2
+		caretaker.addMemento(originator.guardar()); // ESTADO POSICION 2 s
 
 		originator.setEstado(juego);
 		originator.restaurar(caretaker.getMemento(1));// 
