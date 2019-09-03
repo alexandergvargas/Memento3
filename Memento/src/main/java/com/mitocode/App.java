@@ -42,7 +42,7 @@ public class App {
 		caretaker.addMemento(originator.guardar()); // ESTADO POSICION 2
 
 		originator.setEstado(juego);
-		originator.restaurar(caretaker.getMemento(1));
+		originator.restaurar(caretaker.getMemento(1));// 
 
 		juego = originator.getEstado();
 		System.out.println(juego);
